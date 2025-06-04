@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_name": {
+      "type": "string"
+    },
+    "product_description": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "enumeration",
+      "enum": [
+        "canned",
+        "soap",
+        "furniture"
+      ]
+    },
+    "stock": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}
